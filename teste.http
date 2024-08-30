@@ -1,0 +1,23 @@
+### Teste para retornar itens sem desconto
+GET http://localhost:8080/api/itens/sem-desconto
+Accept: application/json
+
+### Teste para retornar itens com desconto
+GET http://localhost:8080/api/itens/com-desconto
+Accept: application/json
+
+### Teste para retornar todos os itens ordenados por valor unitário em ordem decrescente
+GET http://localhost:8080/api/itens/ordenados-por-valor
+Accept: application/json
+
+### Teste para retornar o id do produto mais vendido
+GET http://localhost:8080/api/itens/produto-mais-vendido
+Accept: application/json
+
+### Teste para retornar as notas fiscais com mais de 10 unidades vendidas em um único item de compra
+GET http://localhost:8080/api/itens/nfs-mais-de-10-unidades
+Accept: application/json
+
+### Teste para retornar as notas fiscais com valor total dos itens de  compra maior que 500
+GET http://localhost:8080/api/itens/nfs-valor-maior-500
+Accept: application/json
